@@ -1,0 +1,53 @@
+.navbar {
+    background-color: #000000; 
+    color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .search-box {
+    flex: 1; 
+    margin: 0 20px; 
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline; 
+}
+
+ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #afc1cf; 
+  color: #e5c9c9;
+  border-radius: 6px; 
+  cursor: pointer;
+  margin-right: 10px; 
+}
+
+ul li a:hover {
+  opacity: 1;
+}
+
+
+  
